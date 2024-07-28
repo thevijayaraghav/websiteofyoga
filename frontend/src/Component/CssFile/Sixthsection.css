@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* .co{
+    border: 1px solid black;
+} */
+
+.appointmentformsss{
+   border:  1px solid black;
+   height: fit-content;
+   width: auto;
+   margin: auto;
+   padding: 20px 10px 20px;
+   
+}
+
+.useforspace ,.datess{
+    border-radius: 5px;
+    padding: 5px;
+}
+.appointmentbtn{
+    padding: 5px;
+}
+.weekends{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    color: #7b6cd5;
+    margin-bottom: 5px;
+}
+.time{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    font-weight: 600;
+    color: #444;
+}
+.beginers{  
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0.6px;
+color: #444;
+}
+.makeanappo{   font-family: 'Josefin Sans', sans-serif;
+font-size: 30px;
+line-height: 40px;
+font-weight: 600;
+letter-spacing: 0.6px;
+text-align: center;
+color: #7b6cd5;
+}
+.makeappoinimentinfo{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    color: #888;
+    text-align: center;
+}
+.form-control{
+    border: 1px solid #999;
+    height: 38px;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 0.48px;
+}
+
+.ftschedule{    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.84px;
+    font-weight: 700;
+    color: #7b6cd5;
+    text-align: center;}
+
+    .timedefnition{
+        font-size: 15px;
+        line-height: 40px;
+        font-weight: 400;
+        letter-spacing: 0.45px;
+        color: #666;
+        text-align: center;
+    }
+    .btn-primary{
+    width: 100%;
+    padding: 18px 0 13px;
+    background-color: #7b6cd5;
+    border: 1px solid #7b6cd5;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    }
+    

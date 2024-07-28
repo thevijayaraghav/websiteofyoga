@@ -1,0 +1,59 @@
+.contaier{
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.imagesection{
+
+    /* border: 1px solid black; */
+    background-image: url('../../img/the-best-class-yoga.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center right;
+    height:500px;
+    
+}
+.bstcls{
+    margin-top: 65px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    color: #7b6cd5;
+    font-weight: 600;
+    text-align: left;
+}
+.para ,.para2{
+    margin-top: 10px;
+    line-height: 30px;  
+}
+.para2{
+    padding-top: 25px;
+}
+li{
+    margin-top: 30px;
+    
+   list-style-type: none;
+   
+}
+.thuder{
+    color: #7b6cd5;
+    margin-right: 10px;
+}
+.col2{
+   background-color: #f5f5f5;
+}
+@media (min-width:768px) and (max-width:1024px){
+    .imagesection{
+
+        height:633px;
+        
+    }   
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+    .imagesection{
+
+        height:600px;
+        
+    }   
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Open+Sans:wght@300..800&display=swap');
+.cart-border {
+  border: 2px solid #7b6cd5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.cart-image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cart-details {
+  flex-grow: 1;
+}
+
+.cart-title {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cart-text {
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.cart-price {
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  color: #7b6cd5;
+}
+
+.quantity-controls {
+  margin-top: 10px;
+}
+
+.quantity-btn {
+  font-family: 'Josefin Sans';
+  background-color: #7b6cd5;
+  border-color: #7b6cd5;
+  color: white;
+  margin: 0 5px;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.remove-btn {
+  background-color: #fe86d4;
+  border-color: #fe86d4;
+  margin-top: 10px;
+  font-family: 'Josefin Sans';
+}
+
+.subtotal-column {
+  position: sticky;
+  font-family: 'Josefin Sans';
+  top: 20px; /* Adjust as necessary */
+}
+
+.subtotal {
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  background-color: #7b6cd5;
+  border-color: #7b6cd5;
+  margin-top: 10px;
+}
+.cartpagesheds{
+  color: #7b6cd5;
+  font-family: 'Josefin Sans';
+}
+.pageheas{
+  color: #fe86d4;
+  font-family: 'Josefin Sans';
+}

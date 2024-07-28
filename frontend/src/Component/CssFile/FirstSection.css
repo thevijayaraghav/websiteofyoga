@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Open+Sans:wght@300..800&display=swap');
+
+.container {
+    width: 65%;
+}
+.no-dec{
+    text-decoration: none;
+}
+.newline {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.full {
+    /* border: 5px solid black; */
+    height: 550px;
+    background-image: url(../../img/yoga-header.jpg);
+    background-color: rgba(0, 0, 0, .8);
+    background-size: cover;  
+    background-position: center;
+    position: relative;
+   
+    z-index: 1;
+}
+
+.call {
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backgrounds {
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.emaillogo {
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.aligns {
+    margin-left: 35px;
+    margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    vertical-align: middle;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+}
+
+.contactnum {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/logo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+.textinformation {
+    margin-top: 20%;
+    position: relative;
+}
+
+.quotes {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.quotes_2 {
+    text-align: center;
+    color: #fff;
+}
+
+.btn01 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    padding: 21px 32px 19px;
+    background-color: #fe86d4;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border-color:#fe86d4 ;
+}
+
+
+/*  overlay ------------*/
+.full {
+    position: relative;
+    height: 550px;
+    background-image: url(../../img/yoga-header.jpg);
+    background-size: cover;  
+    background-position: center;
+    z-index: 1;
+}
+
+.full::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+    z-index: 3; /* Ensure it sits above the overlay */
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+
+    .full {
+        height: auto;
+    }
+
+    .contactnum, .backgrounds {
+        margin-top: 0px;
+    }
+    .backgrounds {
+        margin-top: 1px !important;
+    }
+
+    .call {
+        margin-top: 0px;
+        justify-content: center;
+        
+    }
+
+    .newline {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+    .emailsec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -75px;
+        margin-top: 5px;
+    }
+
+    .quotes {
+        font-size: 35px;
+    }
+
+    .btn {
+        width: 82%;
+    }
+
+    .backgrounds {
+        margin-top: 10px;
+    }
+
+    .num {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .full {
+        height: 700px;
+    }
+
+    .contactnum {
+        margin-left: 5px;
+    }
+
+    .nums {
+        border-right: 10px;
+    }
+
+    .textinformation {
+        margin-top: 33%;
+    }
+
+    .emailsec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -75px;
+    }
+    .newline {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+
+    .call {
+        text-align: center;
+        justify-content: center;
+        margin-top: -34px;
+    }
+
+    .aligns {
+        margin-top: 0px;
+    }
+
+    .quotes_2 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .btn {
+        height: auto;
+        width: 50%;
+    }
+
+    .backgrounds {
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .full {
+        height: 700px;
+    }
+
+    .emailsec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25px;
+        margin-left: -75px;
+    }
+
+    .call {
+        margin-top: -36px;
+        justify-content: center;
+    }
+
+    .aligns {
+        margin-top: 0px;
+    }
+
+    .textinformation {
+        margin-top: 24%;
+    }
+
+    .newline {
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-top: 30px;
+        width: 32%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .call {
+        margin-top: inherit;
+        text-align: left;
+        justify-content: center;
+    }
+   .centeronrow{
+    display: flex;
+    justify-content: center;
+   }
+    
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .call {
+        margin-top: inherit;
+        text-align: left;
+        justify-content: center;
+    }
+}
+

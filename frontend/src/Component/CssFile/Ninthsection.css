@@ -1,0 +1,23 @@
+.full-height {
+    min-height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7b6cd5;
+    color: #f0f0f0;
+}
+
+.socaillinkes {
+    margin-left: 20px;
+    font-size: 30px;
+}
+.socaillinkes>:hover{
+    cursor: pointer;
+    color: #fe86d4;
+    
+
+}
+span:hover{
+    cursor: pointer;
+    color: #fe86d4;
+}

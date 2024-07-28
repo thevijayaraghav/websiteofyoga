@@ -1,0 +1,28 @@
+.contain {
+    /* border: 1px solid black; */
+    height: max-content;
+    width: 100%;
+    position: relative;
+    
+}
+
+.youryogo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.natureyogoheads {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.84px;
+    font-weight: 700;
+    color: #7b6cd5;
+}
+
+.mindndbody {
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    color: #666;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* .advantageofyoga,.col,.ms{
+    border: 1px solid black;height: auto;
+} */
+.mindndsoul{
+    background-image: url('../../img/mind-soul.png');
+    background-repeat: no-repeat;
+    
+}
+.mindandsoul{
+    /* border: 1px solid black; */
+    width: 65%;
+}
+.iconz{
+    font-size: 50px;
+    color:#FE86D4 ;
+}
+
+.headings{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    color: #444;
+}
+.para{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.55px;
+    color: #666;
+}
+.ms{
+  object-fit:fill;
+}
+.advantageofyoga{
+     background-image: url('../../img/advantages-of-yoga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    
+    
+}
+.md{
+    align-items: center;
+}
+@media (min-width:1440px) and (max-width:2560px){
+    .centeralign{
+        display: flex;
+        justify-content: center;
+    }
+    .endalign{
+        display: flex;
+        justify-content: end;
+    }
+    .startalign{
+        display: flex;
+        justify-content: start; 
+    }
+    .advantageofyoga{
+        
+        height: 100%;
+   }
+   .ms{
+    margin-top: 50px;
+   }
+   
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+    .centeralign{
+        display: flex;
+        justify-content: center;
+    }
+    .endalign{
+        display: flex;
+        justify-content: end;
+    }
+    .startalign{
+        display: flex;
+        justify-content: start; 
+    }
+    .ms{
+        margin-top: 50px;
+       }
+       
+       .advantageofyoga{
+       
+        height: 100%;
+   }
+}
+
+@media (min-width:992px) and (max-width:1024px){
+    .centeralign{
+        display: flex;
+        justify-content: center;
+    }
+    .endalign{
+        display: flex;
+        justify-content: end;
+    }
+    .startalign{
+        display: flex;
+        justify-content: start; 
+    }
+    .ms{
+        margin-top: 50px;
+       }
+      
+       .advantageofyoga{
+        background-position-y:-20px;
+        height: 100%;
+       }
+      
+
+  
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    .mindandsoul {
+        width: 100%;
+         text-align: center;
+     }
+     .headings{
+        color: #FE86D4 ;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .mindandsoul {
+        width: 100%;
+         text-align: center;
+     }
+     .headings{
+        color: #FE86D4 ;
+       
+    }
+     
+
+}
+@media (min-width:320px) and (max-width:576px){
+    .mindandsoul {
+        width: 100%;
+         text-align: center;
+     }
+     .headings{
+        color: #FE86D4 ;
+    }
+}
+
+

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.price-symbol {
+    top: -.75em;
+    font-size: 13px;
+}
+.cart-icon {
+    text-align: end;
+}
+.brandname {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.84px;
+    font-weight: 700;
+    color: #7b6cd5;
+}
+.brandname-center {
+    color: #fe86d4;
+}
+.cart-icon {
+    position: relative;
+}
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #7b6cd5;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.buy-now-btn {
+    background-color: #fe86d4;
+    border-color: #fe86d4;
+}
+.add-btn {
+    background-color: #7b6cd5;
+    border: #7b6cd5;
+    padding:5px 
+}
+.cart-border {
+    border: 2px solid #7b6cd5;
+    padding: 0px !important;
+}
+.carnavbar{
+  width: 90% !important;
+}
